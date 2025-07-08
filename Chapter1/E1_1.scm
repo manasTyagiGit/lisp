@@ -1,10 +1,15 @@
 (define a 3)
 (define b (+ a 1))
 
-(+ a b (* a b))
+(newline)
+(display (+ a b (* a b)))
+(newline)
 
-(= a b)
+(display (= a b))
+(newline)
 
-(if (and ( > b a) (< b (* a b)))
-    b
-    a)
+(display 
+ (if (and (> b a) (< b (* a b)))
+     b
+     a))
+(newline)
