@@ -29,7 +29,7 @@
 )
 
 (define (sqrt x)
-        (sqrt-newton x 1.0)
+        (sqrt-newton x 1.0)                     ; initial guess = 1.0
 )
 
 
